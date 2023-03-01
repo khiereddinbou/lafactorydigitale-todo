@@ -1,0 +1,71 @@
+/* Gloabal Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  border: none !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Navbar */
+
+.logo {
+  width: 240px;
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 140px;
+  }
+}
+
+/* Login Pages */
+
+.formWrapper {
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Home Page */
+
+.todoCard {
+  height: 200px;
+  box-shadow: 1px 1px 5px 0px #3b3b3b;
+  transition: all 0.2s ease-in-out;
+}
+
+.cardBtn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-select {
+  width: fit-content;
+  cursor: pointer;
+}
